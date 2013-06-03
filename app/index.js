@@ -13,7 +13,8 @@ var fs        = require('fs'),
                   {name:'jasmine', path:"/jasmine/lib/jasmine-core", file:"", target:"/test"},
                   {name:'backbone', path:"/backbone", file:"backbone.js", target:""},
                   {name:'requirejs', path:"/requirejs", file:"require.js", target:""},
-                  {name:'r.js', path:"/r.js/dist", file:"r.js", target:""}
+                  {name:'r.js', path:"/r.js/dist", file:"r.js", target:""},
+                  {name:'https://github.com/NobleJS/setImmediate.git', path:"/setImmediate", file:"setImmediate.js", target:""}
                 ],
 
     depNames  = _.map(deps, function(el) {return el.name});
