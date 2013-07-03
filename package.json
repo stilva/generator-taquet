@@ -8,5 +8,6 @@
   },
   "readme": "Read the README.md file",
   "readmeFilename": "readme.md",
-  "_id": "generator-taquet-generator@0.0.1"
+  "_id": "generator-taquet-generator@0.0.1",
+  "devDependencies": {}
 }
