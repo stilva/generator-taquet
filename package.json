@@ -2,10 +2,14 @@
   "name": "generator-taquet",
   "version": "0.0.0a",
   "description": "Workflow helper for developing with taquet.js",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "yeoman-generator": "~0.12.3",
+    "wrench": "~1.5.1",
     "lodash": "~1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stilva/generator-taquet.git"
   },
   "readme": "Read the README.md file",
   "readmeFilename": "README.md"
