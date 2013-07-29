@@ -47,7 +47,10 @@ var Generator = module.exports = function Generator() {
     checkRequiredPaths.bind(this)(mPath, folder);
 
     for(var i = 0, l = deps.length; i<l; i++) {
-      fs.rename(mPath+'/app/components'+deps[i].path+'/'+deps[i].file, mPath+(!!deps[i].target ? deps[i].target: folder)+deps[i].file);
+      fs.rename(mPath+'/app/components'+deps[i].path+'/'+deps[i].file, mPath+(!!deps[i].target ? deps[i].target: folder)+deps[i].file, function (err) {
+        if (err) throw err;
+        console.log('renamed complete');
+      });
     }
 
     moveTemplateFile.bind(this)();
