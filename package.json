@@ -1,13 +1,12 @@
 {
   "name": "generator-taquet",
-  "version": "0.0.1",
-  "description": "Workflow helper for developing with taquet",
-  "dependencies": {
-    "yeoman-generator": "~0.10.4",
+  "version": "0.0.0a",
+  "description": "Workflow helper for developing with taquet.js",
+  "dependencies": {},
+  "devDependencies": {
+    "yeoman-generator": "~0.12.3",
     "lodash": "~1.1.1"
   },
   "readme": "Read the README.md file",
-  "readmeFilename": "readme.md",
-  "_id": "generator-taquet-generator@0.0.1",
-  "devDependencies": {}
+  "readmeFilename": "README.md"
 }
